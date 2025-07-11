@@ -1,0 +1,16 @@
+{
+  "type": "micro",
+  "wake_word": "Hey bitch",
+  "author": "wouterrutgers",
+  "website": "https://github.com/wouterrutgers",
+  "model": "https://raw.githubusercontent.com/wouterrutgers/microWakeWord/refs/heads/main/models/heybitch.tflite",
+  "version": 2,
+  "trained_languages": ["en"],
+  "micro": {
+    "probability_cutoff": 0.68,
+    "sliding_window_size": 4,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
